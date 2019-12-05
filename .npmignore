@@ -21,4 +21,5 @@ Dockerfile
 .gitignore
 .nycrc
 .travis.yml
-
+.idea
+.eslintrc.js

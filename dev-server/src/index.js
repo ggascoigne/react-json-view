@@ -200,7 +200,9 @@ function getExampleJson1() {
         string_number: "1234",
         date: new Date(),
         moment: Moment(),
-        regexp: /[0-9]/gi
+        regexp: /[0-9]/gi,
+        Set: new Set(['1', 'a', '2', 'b', 3, 4]),
+        Map: new Map([['a','A'], ['b', 2]])
     }
 }
 
